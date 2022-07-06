@@ -1,0 +1,83 @@
+*::before, *::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  html, body {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .top-nav {
+    list-style: none;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    position: fixed;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+  
+  .nav-list__item {
+    display: inline-block;
+  }
+  
+  section {
+    display: block;
+  }
+  
+  .site-section-1 {
+    background-color: lightblue;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    width: 100%;
+  }
+  
+  .site-section-2 {
+    background-color: lightgreen;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    text-align: center; 
+    padding-bottom: 25%;
+    padding-top: 25%;
+    width: 100%;
+  }
+  
+  .site-section-3 {
+    background-color: lightpink;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    width: 100%;
+  }
+  
+  .site-section-4 {
+    background-color: purple;
+    display: inline-block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 25%;
+    width: 100%;
+  }
